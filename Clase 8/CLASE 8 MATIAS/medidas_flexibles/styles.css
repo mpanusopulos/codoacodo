@@ -1,0 +1,48 @@
+*{font-family: monospace, serif}
+
+.padre{
+	border: 1px solid black;
+	width: 50vw;
+	height: 50vh;
+	margin: auto;
+}
+
+.relative{
+	background-color: blue;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	display: inline-block;
+}
+.absolute{
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	position: absolute;  /* En relative siempre toma las coordenadas desde el lugar que las declaramos.
+	En cambio, absolute las coordenadas no las toma desde su posicion, sino que busca a su ancestro mas cercano.
+	En este caso Absolute busca al familiar. Y sino toma al body como su eje.
+	 */
+	top: 0px;
+	right: 0px;
+
+
+ }
+
+ .fixed{
+	background-color: red;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	top: 150px;
+	/* Al hacer scroll se queda en el mismo lugar que lo declaremos */
+}
+
+
+ .sticky{
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	position: sticky;
+	top: 1px;
+	/* Al hacer scroll se queda en el mismo lugar que lo declaremos */
+}

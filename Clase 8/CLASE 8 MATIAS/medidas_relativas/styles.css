@@ -1,0 +1,9 @@
+*{font-family: monospace, serif}
+
+html{font-size: 10px}
+
+.padreem{font-size: 50px}
+
+.em{font-size: 3em} /* Las medidas REM dependen del valor del size de SU PADRE */
+
+.rem{font-size: 5.2rem}  /* Las medidas REM dependen del valor del size de HTML. CONVIENE USAR LAS REM */

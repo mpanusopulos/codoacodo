@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+table, th, td{
+	border: 1px solid black;
+}
+
+.colorrojo{
+	color: red
+}
+
+*{
+	font-family: "Sofia";
+	font-size: 25px;
+	font-style: normal;
+}
